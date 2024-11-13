@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    width: 100vw;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-container{
+    width: 1100px;
+    height: 89px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar-left-menu-container{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 556.34px;
+}
+.navbar-left-menu{
+    padding-left: 15px;
+    padding-right: 15px;
+    font: 16px "Helvetica Neue", sans-serif;
+    font-weight: 550;
+}
+#navbar-right{
+    display: flex;
+    align-items: center;
+    margin-left: 84.1406px;
+}
+#navbar-right-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.navbar-right-menu{
+    font: 12px "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+#hl-news{
+    width: 1100px;  
+    height: 763px;
+    margin-top: 15px;
+}
+#hl-news-top-container{
+    width: 1100px;
+    height: 385px;
+    display: flex;
+}
+.hl-news-column{
+    width: 50%;
+    background-color: whitesmoke;
+}
+#hl-news-btm{
+    width: 1115px;
+    height: 333px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.button-87 {
+  margin: 10px;
+  padding: 8px 15px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 100px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color: white;
+}
+
+.button-87:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+#hl-new-p{
+    font: "Helvetica Neue", sans-serif, Arial;
+}
+.h1-news-btm-img{
+    width: 263.75px;
+    height: 175px;
+    border-radius: 5px;
+}   
+.h1-news-btm-img-container{
+    padding-left: 15px;
+}
