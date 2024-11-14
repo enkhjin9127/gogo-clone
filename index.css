@@ -8,6 +8,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.column{
+    flex-direction: column;
+}
 #header{
     width: 100vw;
     height: 89px;
@@ -61,7 +64,7 @@ body{
     font-weight: 400;
 }
 #hl-news{
-    width: 1100px;  
+    width: 100vw;  
     height: 763px;
     margin-top: 15px;
 }
@@ -75,7 +78,7 @@ body{
     background-color: whitesmoke;
 }
 #hl-news-btm{
-    width: 1115px;
+    width: 1100px;
     height: 333px;
     margin-top: 30px;
     padding-bottom: 50px;
@@ -115,8 +118,81 @@ body{
 .h1-news-btm-img{
     width: 263.75px;
     height: 175px;
-    border-radius: 5px;
+    border-radius: 10px;
 }   
 .h1-news-btm-img-container{
     padding-left: 15px;
+}
+#story-section{
+    width: 100vw;
+    height: 280.5px;
+    margin-top: 40px;
+}
+#story-container{
+    width: 1100px;
+    height: 280.5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#story-section-title{
+    font-family: "Helvetica Neue", sans-serif, Arial;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#story-section-title-sub{
+    font-family: "Helvetica Neue", sans-serif, Arial;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(0, 176, 244);
+    padding: 2px 3px 3px 2px;
+    border-radius: 3px;
+}
+#story-slider{
+    width: 1100px;
+    height: 235px;    
+}
+#story-slider-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.story-slider-img{
+    width: 170.8px;
+    height: 235px;
+}
+#content-body{
+    width: 100vw;
+    height: 3000px;
+    margin-top: 55px;
+}
+#content-body-container{
+    width: 1100px;
+    height: 3000px;
+}
+#news-date-grid-container{
+    display: flex;
+    width: 713px;
+    height: 29px;
+    justify-content: space-between;
+}
+.calendar-status-bar{
+    width: 100px;
+    height: 7px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 20px;
+}
+.calendar-status-bar-active{
+    width: 100px;
+    height: 7px;
+    background-color: rgb(64, 124, 232);
+    border-radius: 20px;
+}
+.news-date-grid-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
